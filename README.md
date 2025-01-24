@@ -21,13 +21,7 @@ This tool is particularly useful for penetration testers, bug bounty hunters, an
 ## Usage
 
 ### Passive Scanning
-The extension automatically performs passive scanning as you browse or proxy traffic through Burp Suite. It will identify potential subdomain takeover vulnerabilities and report them in the **Issues** tab.
-
-### Manual Scanning
-To manually scan a specific request/response:
-1. Add the domain in scope.
-2. Use Burp Suite's passive scanner. In case it finds domains that could be affected, it will highlight the results in the Issues tab.
-3. Review the results in the **Issues** tab.
+The extension automatically performs passive scanning of in-scope as you browse or proxy traffic through Burp Suite. It will identify potential subdomain takeover vulnerabilities and report them in the **Issues** tab.
 
 ### Interpreting Results
 - **Potential Vulnerabilities**: The extension will flag subdomains that may be abandoned and vulnerable to takeover.
