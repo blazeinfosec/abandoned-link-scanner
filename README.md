@@ -1,8 +1,8 @@
 # Abandoned Link Scanner - Burp Suite Extension
 
-The **Abandoned Link Scanner** is a Burp Suite extension designed to automate the process of identifying abandoned or misconfigured subdomains that could be exploited by attackers to take control of a domain.
+The **Abandoned Link Scanner** is a Burp Suite extension designed to automate the process of identifying abandoned or misconfigured assets that could be exploited by attackers to take control of a domain.
 
-This tool is particularly useful for penetration testers, bug bounty hunters, and security professionals who want to identify and mitigate subdomain takeover risks in their target environments.
+This tool is particularly useful for penetration testers, bug bounty hunters, and security professionals who want to identify and mitigate domain takeover risks in their target environments.
 
 ## Installation
 
@@ -21,10 +21,10 @@ This tool is particularly useful for penetration testers, bug bounty hunters, an
 ## Usage
 
 ### Passive Scanning
-The extension automatically performs passive scanning of in-scope as you browse or proxy traffic through Burp Suite. It will identify potential subdomain takeover vulnerabilities and report them in the **Issues** tab.
+The extension automatically performs passive scanning of in-scope as you browse or proxy traffic through Burp Suite. It will identify potential domain takeover vulnerabilities and report them in the **Issues** tab.
 
 ### Interpreting Results
-- **Potential Vulnerabilities**: The extension will flag subdomains that may be abandoned and vulnerable to takeover.
+- **Potential Vulnerabilities**: The extension will flag domain that may be abandoned and vulnerable to takeover.
 - **Highlighted Responses**: The tool highlights specific parts of the response that indicate a potential vulnerability (e.g., "The specified bucket does not exist" for AWS S3).
 - **Severity Levels**: Issues are categorized as **Medium** severity by default, but manual verification is recommended.
 
